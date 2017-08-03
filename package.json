@@ -1,0 +1,23 @@
+{
+  "name": "kod-zad-12_6",
+  "version": "1.0.0",
+  "description": "examp zad126",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "Test-kodilla"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Albert",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
