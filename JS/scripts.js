@@ -14,7 +14,7 @@ $.ajax({
 function showCountriesList(resp) {
    countriesList.empty();
    resp.forEach(function(item){
-    $('<ul>').text(item.name).appendTo(countriesList);
+    $('<li>').addClass('title').text(item.name).appendTo(countriesList);
     $('<li>').text('Capital - ' + item.capital).appendTo(countriesList);
     $('<li>').text('Population - ' + item.population).appendTo(countriesList);
 	  $('<li>').append('<img src="' + item.flag + '" alt="Flaga">')

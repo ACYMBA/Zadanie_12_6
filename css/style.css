@@ -32,3 +32,9 @@ li {
 img {
    max-width: 100px; 
 }
+.title {
+  border: 2px solid black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: blue;
+}
